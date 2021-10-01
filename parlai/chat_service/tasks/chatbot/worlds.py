@@ -31,7 +31,7 @@ class MessengerBotChatTaskWorld(World):
     """
 
     MAX_AGENTS = 1
-    MODEL_KEY = 'blenderbot2_400M'
+    MODEL_KEY = 'blenderbot2_3B'
 
     def __init__(self, opt, agent, bot):
         self.agent = agent

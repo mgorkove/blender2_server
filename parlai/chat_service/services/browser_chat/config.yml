@@ -11,9 +11,9 @@ max_workers: 3000
 opt: # Additional model opts go here
   debug: True
   models:
-    blenderbot2_400M:
+    blenderbot2_3B:
       model: projects.blenderbot2.agents.blenderbot2:BlenderBot2FidAgent
-      model_file: zoo:blenderbot2/blenderbot2_400M/model
+      model_file: zoo:blenderbot2/blenderbot2_3B/model
       interactive_mode: True
       no_cuda: False
       search_server: https://www.google.com/
